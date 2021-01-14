@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <center>
+        <div id="calc_body">
+        <div id="calc_screen">10</div>
+        <div id="calc_button_area">
+            <div class="buttons" id="colored_button"  onclick="clear_screen();">AC</div>
+            <div class="buttons"  id="colored_button" onclick="getInputValue('()');">()</div>
+            <div class="buttons"  id="colored_button" onclick="getInputValue('%');">%</div>
+            <div class="buttons"  id="colored_button" onclick="getInputValue('/');">/</div>
+            <div class="buttons" onclick="getInputValue('7');">7</div>
+            <div class="buttons" onclick="getInputValue(8);">8</div>
+            <div class="buttons" onclick="getInputValue('9');">9</div>
+            <div class="buttons"  id="colored_button" onclick="getInputValue('*');">*</div>
+            <div class="buttons" onclick="getInputValue('4');">4</div>
+            <div class="buttons" onclick="getInputValue('5');">5</div>
+            <div class="buttons" onclick="getInputValue('6');">6</div>
+            <div class="buttons"  id="colored_button" onclick="getInputValue('-');">-</div>
+            <div class="buttons" id="button1" onclick="getInputValue('1');">1</div>
+            <div class="buttons" onclick="getInputValue('2');">2</div>
+            <div class="buttons" onclick="getInputValue('3');">3</div>
+            <div class="buttons"  id="colored_button" onclick="getInputValue('+');">+</div>
+            <div class="buttons" onclick="getInputValue('.');">.</div>
+            <div class="buttons" onclick="getInputValue('0');">0</div>
+            <div class="buttons"  id="colored_button" onclick="getInputValue('clear');">clear</div>
+            <div class="buttons" id="equal_button" onclick="evaluateAnswer();">=</div>
+        </div>
+        
+
+        </div>
+    </center>
+    
+</body>
+<script src="js/app.js"></script>
+</html>
